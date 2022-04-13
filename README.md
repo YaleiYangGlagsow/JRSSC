@@ -1,17 +1,17 @@
 # Classification of Myocardial Blood Flow Based on Dynamic Contrast Enhanced Magnetic Resonance Imaging Using Hierarchical Bayesian Models: Data and Code
 ## Data
-There are four sets of data are included here. These four sets of data are corresponding to the data used in the paper. In particular, the results of Serial 28 have been shown in the main text and the results of Seirals 25 - 27 have been shown in the online supplimentary matirial.
+There are four sets of data are included here. These four sets of data are corresponding to the data used in the paper. In particular, the results of Serial 28 have been shown in the main text and the results of Seirals 25 - 27 have been shown in the online supplementary material.
 
-There are two types of data in this study. One is the original data which is saved in the file with filename extension ''.IMA''. Both image information and MRI parameters are saved in these files. The other is the contouring data which is saved in the file with filename extension ''.con''. This file is a text type file which contains the information of the contour. The contours are manually obtained by a software named ''QMASS, Medis Medical Image'' (https://medisimaging.com/medis-suite-mr/).
+There are two types of data in this study. One is the original data saved in the file with filename extension ''.IMA''. Both image information and MRI parameters are saved in these files. The other is the contouring data which is saved in the file with filename extension ''.con''. This file is a text type file that contains information about the contour. The contours are manually obtained by software named ''QMASS, Medis Medical Image'' (https://medisimaging.com/medis-suite-mr/).
 
 ## Code
-The code of the algorithm illustrated in the paper has been written in Python. There are two parts of codes, i.e. data reading codes and main codes. The data reading codes are written in the file with name ''datareading.py''. These codes can be used to read the ''.IMA'' and ''.con'' data. Given right directories of the ''.IMA'' and ''.con'' files and the heart location (The four vertices of the rectangle that contains the image of the heart), key information such as image matrix and contour coordinates can be extracted. Details can be further found in the main codes part.
+The code of the algorithm illustrated in the paper has been written in Python. There are two parts of codes, i.e. data reading codes and main codes. The data reading codes are written in the file with the name ''datareading.py''. These codes can be used to read the ''.IMA'' and ''.con'' data. Given the right directories of the ''.IMA'' and ''.con'' files and the heart location (The four vertices of the rectangle that contains the image of the heart), key information such as image matrix and contour coordinates can be extracted. Details can be further found in the main code.
 
 The main codes can be separated into different parts for different functions. Each part is marked by annotation. The usages of different parts are illustrated as follows:
 
 ### Library
 
-Introduce necessary libraries for the algorithm
+Introduce necessary libraries for the algorithm.
 
 ### Read Data
 

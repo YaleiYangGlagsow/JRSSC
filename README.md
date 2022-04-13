@@ -42,7 +42,7 @@ Using Fermi method to estimate the myocardial blood flow (MBF).
 
 ### estabilish dataframe
 
-Estabilsh a dataframe that contains MBF values and Fermi parameetrs. Specifically, each rwo of the dataframe denotes a pixel. Columns show information X coordinate, Y coordinate, MBF, Fermi parameter A, Fermi parameter $\tau$ and Fermi parameter $\omega$ and estiamted variance of the Fermi estimation.
+Establish a dataframe that contains MBF values and Fermi parameters. Specifically, each row of the dataframe denotes a pixel. Columns show information X coordinate, Y coordinate, MBF, Fermi parameter A, Fermi parameter $\tau$ and Fermi parameter $\omega$ and estimated variance of the Fermi estimation.
 
 ### MBF map using Fermi
 

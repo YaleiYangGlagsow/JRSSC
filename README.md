@@ -38,7 +38,7 @@ Estimate baseline end point for the blood pool.
 
 ### Fermi estimation
 
-Using Fermi method to estimate the myocardial blood flow (MBF).
+Using the Fermi method to estimate the myocardial blood flow (MBF).
 
 ### estabilish dataframe
 
@@ -50,19 +50,19 @@ Plot Fermi estimated MBF map.
 
 ### GMM
 
-Using Gaussian mixture model to classify the Fermi estimated MBF into two classes (healthy tissue and lesion). Put the label into the established dataframe and plot the classification map.
+Using the Gaussian mixture model to classify the Fermi estimated MBF into two classes (healthy tissue and lesion). Put the label into the established dataframe and plot the classification map.
 
 ### MCMC random walk setting
 
-Fermi parameters are sampled using Metropolis-Hasting algorithm with Gaussian random walk proposal. Set the variance of the random walk and put it into the dataframe.
+Fermi parameters are sampled using the Metropolis-Hasting algorithm with a Gaussian random walk proposal. Set the variance of the random walk and put it into the dataframe.
 
 ### HBM function given Gamma prior
 
-HBM method using Gamma prior
+HBM method using Gamma prior.
 
 ### HBM function given log Gaussian prior
 
-HBM method using log Gaussian prior
+HBM method using log Gaussian prior.
 
 ### process HBM given log Gaussian prior (Gamma prior is annotated)
 

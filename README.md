@@ -43,3 +43,32 @@ Using Fermi method to estimate the myocardial blood flow (MBF).
 ### estabilish dataframe
 
 Estabilsh a dataframe that contains MBF values and Fermi parameetrs. Specifically, each rwo of the dataframe denotes a pixel. Columns show information X coordinate, Y coordinate, MBF, Fermi parameter A, Fermi parameter $\tau$ and Fermi parameter $\omega$ and estiamted variance of the Fermi estimation.
+
+### MBF map using Fermi
+
+Plot Fermi estimated MBF map.
+
+### GMM
+
+Using Gaussian mixture model to classify the Fermi estimated MBF into two classes (healthy tissue and lesion). Put the label into the established dataframe and plot the classification map.
+
+### MCMC random walk setting
+
+Fermi parameters are sampled using Metropolis-Hasting algorithm with Gaussian random walk proposal. Set the variance of the random walk and put it into the dataframe.
+
+### HBM function given Gamma prior
+
+HBM method using Gamma prior
+
+### HBM function given log Gaussian prior
+
+HBM method using log Gaussian prior
+
+### process HBM given log Gaussian prior (Gamma prior is annotated)
+
+Process the HBM method using log Gaussian prior given hyperparameters.
+
+### results analysis
+
+The HBM methods will retrun all sampling results. The codes in this part show some analysis to the sampling results.
+

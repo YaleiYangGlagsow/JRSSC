@@ -1,6 +1,6 @@
 # Classification of Myocardial Blood Flow Based on Dynamic Contrast Enhanced Magnetic Resonance Imaging Using Hierarchical Bayesian Models: Data and Code
 ## Data
-There are four sets of data are included here. These four sets of data are corresponding to the data used in the paper. In particular, the results of Serial 28 have been shown in the main text and the results of Seirals 25 - 27 have been shown in the online supplementary material.
+There are four sets of data included here. These four sets of data correspond to the data used in the paper. In particular, the results of Serial 28 have been shown in the main text, and the results of Serials 25 - 27 have been shown in the online supplementary material.
 
 There are two types of data in this study. One is the original data saved in the file with filename extension ''.IMA''. Both image information and MRI parameters are saved in these files. The other is the contouring data which is saved in the file with filename extension ''.con''. This file is a text type file that contains information about the contour. The contours are manually obtained by software named ''QMASS, Medis Medical Image'' (https://medisimaging.com/medis-suite-mr/).
 
